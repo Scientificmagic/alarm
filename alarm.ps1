@@ -1,5 +1,5 @@
 # USES 24-HOUR TIME!!!
-$Wakeup = Get-Date -Hour 0 -Minute 42 -Second 0
+$Wakeup = Get-Date -Hour 00 -Minute 00 -Second 0
 
 # If arguments provided, overwrite hard-coded time
 if (-NOT ($Null -eq $Args[0])) {
